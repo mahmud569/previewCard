@@ -1,0 +1,226 @@
+
+
+* {
+  box-sizing: border-box;
+   
+}
+
+html, body {
+  height: 100%;
+}
+body {
+  background: hsl(233, 47%, 7%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+.wrap {
+  height: 80%; 
+  width: 700px;
+  margin-right: 229px;
+ 
+}
+.card {
+  display: flex;
+  flex: 0 0 auto;
+   max-width: 700px;
+  margin: 80px 0;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  margin-right: 344px;
+
+}
+.card-pic-wrap {
+  border-radius: 5px 0 0 5px;
+  width: 130%;
+  flex: 0 0 auto;
+  position: relative;
+  background: hsl(244, 38%, 16%);
+}
+
+
+ 
+.img-BC {
+        background-color: rgba(150, 15, 235, 0.541);
+ 
+    display: none;
+      width: 100%; 
+    height: 100%; 
+}
+
+
+.card-content {
+padding-right: 58px;  
+width: 450px;
+height: 380px;
+position: relative;     
+background-color: rgba(150, 15, 235, 0.541);
+ 
+
+}
+
+.card-content img {
+     width: 450px;
+    height: 380px;
+    border-radius: 0 5px 5px 0;
+     filter: opacity(0.4) drop-shadow(0 0 0 rgb(153, 0, 255)); 
+
+     }
+
+  
+
+   
+
+h2 {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+
+  font-weight: bold;
+  font-size: 1.8em;
+   color: white;
+  margin-left: 55px;
+  margin-top: 44px;
+}
+ 
+
+p{
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-left: 55px;
+
+}
+
+.bottom{
+  display: flex;
+}
+
+.leftNum p.comp{
+  margin-top: -20px;
+}
+.leftNum{
+  font-size: 14px;
+}
+.temp{
+  margin-top: -20px;
+}
+.middileNum{
+  font-size: 14px;
+
+}
+.QUER{
+  margin-top: -20px;
+
+}
+
+.rightNum{
+  font-size: 14px;
+
+}
+
+
+
+.image {
+  width: 100%; 
+  background-image: url('/startup-593343_1920.jpg');
+  background-size: 100%; 
+  position: relative; 
+  background-repeat: no-repeat; 
+  min-width: 130%; 
+}
+
+.overlay {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%; 
+  background-color: rgba(171, 92, 219, 0.3);
+}
+
+ 
+
+@media screen and (max-width: 375px) {
+  
+   
+  
+  
+  
+  .card {
+    width: 90%; 
+     flex-direction: column-reverse;
+    width: 667px; 
+    height: 600px; 
+    border-radius: 20px; 
+   justify-content: center;
+  padding-left: 77px;
+  padding-top: 119px;
+  margin-bottom: -33px;
+   }
+
+   .img-BC{
+    display: block;
+     background-image: url('/startup-593343_1920.jpg');
+    height: 280px; 
+    width: 410px;
+    margin-top: 700px;
+    margin-left: 339px;
+    background-repeat:no-repeat ;
+    filter: opacity(0.4) drop-shadow(0 0 0 rgb(153, 0, 255)); 
+    border-radius: 5px 5px 0px 0;
+    background-size: 422px;
+
+   }
+  .card-pic-wrap {
+    width: 70%;
+     margin-top: 600px;
+    margin-left: 337px;
+    margin-right: 169px;
+    height: 877px;
+    margin-bottom: 499px;
+    border-radius: 0 0px 5px 5px;
+
+   }
+  
+  
+  .card-content {
+    height: 50%;
+    margin-bottom: 13px;
+    width: 255px;
+  }
+
+ 
+  .card-content img{
+   /*
+    width: 1200%;
+   margin-right: 88px;
+  height: 70%;*/
+  display: none;
+ 
+  } 
+  .big-txt{
+    margin-top: 50px;
+    font-size: 19px;
+    text-align: center;
+    padding-right: 55px;
+  }
+  .bottom{
+    display: grid;
+text-align: center;  
+margin-right: 33px;
+font-size: 33px;
+
+
+}
+
+.title h2{
+  margin-top: 220px;
+  font-size: 30px;
+
+}
+
+.overlay {
+     
+  background-color: rgba(171, 92, 219, 0.3);
+}
+  
+}
